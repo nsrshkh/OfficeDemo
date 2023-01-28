@@ -1,0 +1,32 @@
+{
+  "source": [
+    {
+      "zone": "rawzone",
+      "database": "raw_db",
+      "tableName": "TestTable"
+    }
+  ],
+  "transformations": [
+    {
+      "ruleName": "MasterMapper",
+      "logMessage": "This is Mapper",
+      "order": 10,
+      "parameters": {
+        "tableName": "TargetTable",
+        "tableType": "Type1",
+        "sourceData": {
+          "source1": "source1",
+          "source2": "source2"
+        },
+        "mergeData": {
+          "merge1": "merge1",
+          "merge2": "merge2"
+        },
+        "mergeInto": {
+          "merge3": "merge3",
+          "merge4": "merge4"
+        }
+      }
+    }
+  ]
+}

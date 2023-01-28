@@ -1,0 +1,25 @@
+{
+  "executionId": "1",
+  "executionFlow": [
+    {
+      "id": "1",
+      "type": "validation",
+      "flow": [
+        {
+          "className": "CreateDatabase",
+          "classPath": "org.example.demo.validator.CreateDatabase"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "type": "transformation",
+      "flow": [
+        {
+          "className": "CreateTempTable",
+          "classPath": "com.example.demo.mapper.CreateTempTable"
+        }
+      ]
+    }
+  ]
+}

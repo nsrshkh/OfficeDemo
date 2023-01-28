@@ -1,0 +1,23 @@
+{
+  "tenantName": "ESG",
+  "connections": [
+    {
+      "dataSourceType": "Storage",
+      "connectionMethod": "SP",
+      "connectionName": "raw",
+      "scope": "scope-123",
+      "connectionProperties": [
+        {
+          "name": "tenantId",
+          "value": "CUMU-TENANT_ID",
+          "valueType": "keyVault"
+        },
+        {
+          "name": "applicationFolder",
+          "value": "CUMU-APP-FOLDER",
+          "valueType": "String"
+        }
+      ]
+    }
+  ]
+}

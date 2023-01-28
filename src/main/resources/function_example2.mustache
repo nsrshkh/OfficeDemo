@@ -1,0 +1,8 @@
+select
+  {{#comma_delimited}}
+  {{first_name}} as {{first}},
+  {{last_name}} as {{last}},
+  {{age}} as {{age}}
+  {{/comma_delimited}}
+from
+  {{table_name}}
